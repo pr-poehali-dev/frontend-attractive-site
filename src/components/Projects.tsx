@@ -7,25 +7,25 @@ const projects = [
     title: 'E-commerce платформа',
     description: 'Полнофункциональный интернет-магазин с корзиной, фильтрами и интеграцией платёжных систем',
     tags: ['React', 'TypeScript', 'Redux', 'Stripe'],
-    gradient: 'from-purple-500 to-pink-500',
+    gradient: 'from-yellow-600 to-yellow-400',
   },
   {
     title: 'Dashboard аналитики',
     description: 'Интерактивная панель с графиками, таблицами и реал-тайм обновлениями данных',
     tags: ['React', 'Chart.js', 'WebSocket', 'Tailwind'],
-    gradient: 'from-blue-500 to-purple-500',
+    gradient: 'from-amber-600 to-yellow-500',
   },
   {
     title: 'Социальная сеть',
     description: 'Платформа для общения с постами, комментариями, лайками и системой друзей',
     tags: ['Next.js', 'PostgreSQL', 'Prisma', 'NextAuth'],
-    gradient: 'from-cyan-500 to-blue-500',
+    gradient: 'from-yellow-500 to-amber-400',
   },
   {
     title: 'Task менеджер',
     description: 'Приложение для управления задачами с drag-and-drop и командной работой',
     tags: ['React', 'DnD Kit', 'Zustand', 'Firebase'],
-    gradient: 'from-pink-500 to-rose-500',
+    gradient: 'from-yellow-600 to-orange-500',
   },
 ];
 
