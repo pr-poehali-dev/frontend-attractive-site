@@ -1,0 +1,30 @@
+{
+  "tests": [
+    {
+      "name": "Get projects list",
+      "method": "GET",
+      "path": "/?resource=projects",
+      "expectedStatus": 200,
+      "expectedBody": {
+        "0": {
+          "id": "number",
+          "title": "string"
+        }
+      },
+      "bodyMatcher": "partial"
+    },
+    {
+      "name": "Get skills list",
+      "method": "GET",
+      "path": "/?resource=skills",
+      "expectedStatus": 200,
+      "expectedBody": {
+        "0": {
+          "id": "number",
+          "name": "string"
+        }
+      },
+      "bodyMatcher": "partial"
+    }
+  ]
+}
